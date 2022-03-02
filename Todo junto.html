@@ -6,13 +6,36 @@
 </head>
 <body>
 
+  <header> 
+    <h1>Serie A</h1> 
+  </header>
+
   <form action="#">
-    <p>iniciar audio:
       <audio controls>
         <source src="song.ogg" type="audio/ogg" />
         <source src="song.mp3" type="audio/mp3"/>
         <source src="song.wav" type="audio/mwav"/>
       </audio>
+  </form>
+
+  <form action="#">
+    <video width="500" height="360" controls>   
+        <source src="video.mp4" type="video/mp4" /> 
+        <source src="video.ogv" type="video/ogv" /> 
+        </video>
+  </form>
+
+
+  <form action="#" novalidate>
+    <br>
+      Usuario:
+      <input type="text" id="usuario" required autofocus placeholder="dilan28">
+      <br>
+      Clave:
+      <input type="password" id="clave" required placeholder="********">
+      <br>
+      <br>
+      <input type="submit">
   </form>
 
   <form action="#">
@@ -69,17 +92,9 @@
       <input type="submit" value="Confirmar">
   </form>
 
-  <form action="#" novalidate>
-    <br>
-      Usuario:
-      <input type="text" id="usuario" required>
-      <br>
-      Clave:
-      <input type="password" id="clave" required>
-      <br>
-      <br>
-      <input type="submit">
-  </form>
+  <footer> 
+    <p>Desarrollo Web</p> 
+  </footer>
 
 </body>
 </html>
